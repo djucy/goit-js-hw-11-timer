@@ -1,0 +1,8 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}

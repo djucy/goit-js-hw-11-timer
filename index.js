@@ -25,12 +25,16 @@ class CountdownTimer {
     start () {
         setInterval(() => {
             this.startTimer(this.getRefs())
-        })
-     }
+        },1000)
+    }
+    // updateClockface({ days, hours, mins, secs }) {
+    //     container.textContent = `${days.textContent}:${hours.textContent}:${mins.textContent}:${secs.textContent}`
+    //  }
 }
  
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2019'),
+  targetDate: new Date('Nov 17, 2021'),
 });
 timer.start();
+// timer.updateClockface({ days, hours, mins, secs });
