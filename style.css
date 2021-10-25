@@ -1,8 +1,22 @@
 .timer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .field {
   display: flex;
+  /* justify-content: stretch; */
   flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 48px;
+}
+
+.value,
+.label {
+  display: flex;
+  justify-content: center;
 }
