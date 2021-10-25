@@ -1,9 +1,15 @@
+/* .body {
+  display: flex;
+  align-items: center;
+} */
+
 .timer {
   display: flex;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+
+  padding: 50px;
+
+  margin: auto;
 }
 .field {
   display: flex;
@@ -13,11 +19,16 @@
   margin-left: auto;
   margin-right: auto;
 
-  font-size: 48px;
+  font-size: 60px;
 }
 
 .value,
 .label {
   display: flex;
   justify-content: center;
+}
+
+.label {
+  font-size: 28px;
+  margin-top: 30px;
 }
