@@ -1,7 +1,9 @@
-/* .body {
-  display: flex;
+.body {
+  /* display: flex;
   align-items: center;
-} */
+  justify-content: space-around; */
+  background-color: burlywood;
+}
 
 .timer {
   display: flex;
